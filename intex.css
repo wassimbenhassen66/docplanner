@@ -1,0 +1,373 @@
+*{
+ font-family: Arial, Helvetica, sans-serif;
+}
+.logo-docplanner{
+    width: 268px;
+    height: 33px;
+   }
+.nav-bar{
+    display:flex ; 
+    justify-content: space-around ;
+    
+}
+nav{
+    margin: -3px;
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    background: white;
+    padding: 15px;
+    margin-top: -8px;
+    width: 1320px;
+
+}
+.menu-nav{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+     margin: 7px;
+    width: 249px;
+}
+.dropdwn{
+    position: relative;
+    color: #84B39B;
+ }
+ .dropdwn:hover{
+    color: #00C4C5
+ }
+    #color{
+        color: #00C4C5;    
+
+    }
+    .color2{
+       color:  #84B39B;
+
+    }
+    .color2:hover{
+        color: #00C4C5;
+    }
+    
+    .menu-dropdwn{
+        position: absolute;
+        display: none;
+        flex-direction: column;
+        display: none;
+    padding-top: 10px;
+    min-width: 197px;
+    margin-left: -10px;
+    background: #fff;
+    box-shadow: 0 5px 10px 0 #d3cfc9;
+    z-index: 1;
+    padding-bottom: 35px;
+    }
+    .menu-dropdwn li{
+        padding-top: 15px;
+    }
+    
+.dropdwn:hover .menu-dropdwn{
+   display:flex;
+list-style: none;
+   flex: column;
+   width: 200px;
+   top: 30px;
+   left: -110px;
+}
+.container{
+    justify-content: center;
+    padding-left: 50%;
+    adding-left: 600px;
+}
+.par-logo{
+    margin-left: -133px;
+    display: flex;
+    height: 27px;
+    width: 341px;
+    margin-top: 50px;
+}
+.lead__logo{
+    margin-left: -17px;
+    margin-top: 67px;}    
+#buttom-logo{
+    color: #00B39B;
+    margin-left: -327px;
+}
+.parg1{
+    margin-left: -450px;
+    margin-top: 64px;
+    color: #6F6F6F;
+}
+.parg1 p {
+    margin: .8em 0;
+    line-height: 1.75;
+    font-weight: 400;
+    
+}
+.parg2{
+    margin-top: -122px;
+    margin-left: 12px;
+    color: #6F6F6F;
+}
+.parg2 p {
+      margin: .8em 0;
+    line-height: 1.75;
+    font-weight: 400;
+}
+section{
+    display: flex;
+    justify-content: space-around;
+    padding: 2px 198px;
+}
+.font-1{
+    list-style: none;
+    background: #00CCB1;
+    border-radius: 10px;
+    color: white;
+    padding: 84px;
+    padding-bottom: 150px;
+    height: 143px;
+    width: 291px;
+    overflow: hidden;
+}
+.font-2{
+    background: #3D83DF;
+    padding: 102px;
+    padding-bottom: 190px;
+    border-radius: 10px;
+    color: white;
+    list-style: none;
+    height: 105px;
+    width: 258px;
+    overflow: hidden;
+    margin-top: 28px;
+
+}
+#cars{
+    padding: 0 0.3em 0 1.5em;
+    height: 36px;
+    border-radius: 6px;
+    margin-left: -15px;
+    margin-top: 40px; 
+}
+.top-font{
+    margin-top: -67px;
+    height: 83px;
+    margin-left: -28px;
+}
+.img-f2{
+    width: 378px;
+    margin-left: 100px;
+    padding: 20px;
+}
+.img-f1{
+    width: 365px;
+    margin-left: 164px;
+    margin-top: -45px;
+
+}
+.adress-container {   
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+.par1{
+
+    margin-left: 227px;
+}
+.par1 h1 {
+    font-family: 'Charmonman', cursive;
+    color:rgb(0,204,177);
+    width: 30%;
+    margin-left: 73px;
+
+}
+.in-card1{
+    padding: 20px;
+}
+.list {
+    width:70%;
+    margin-left: 10%;
+}
+.list ul {
+    list-style-type: none;
+    line-height: 3;
+    margin: 10;
+    padding: 10;
+    overflow: hidden;
+    fill: #ABABAB;
+    
+}
+.list ul :hover{
+    fill:rgb(0,204,177) ;
+}
+.list li {
+    float:left;
+    margin-right: 15px;
+}
+.list li a {
+    color:rgb(196,196,196);
+    text-decoration: none;
+}
+.list img {
+    height: 22px;
+}
+.adress-link{
+    width: 111px;
+}
+.adr-link4{
+    margin-left: -377px;
+    margin-top: 42px;
+}
+.card-container {
+    background: #e5faf8;
+    display: flex;
+    height: 417px;
+    padding: 4%;
+    overflow: hidden;
+}
+    
+    .stats-container {
+        background:#e5faf8;
+        display: flex;
+        height: 380px;
+        padding: 4%;
+        overflow: hidden;
+    }
+    .introduction-box {
+        width: 30%;
+    }
+    .introduction-box h1 {
+        color: rgb(0,177,159);
+        font-family: 'Charmonman', cursive;
+        margin-bottom: 7%;
+    }
+    .introduction-box p {
+        opacity: 0.4;
+    }
+    .introduction-logo img {
+        height: 231px;
+        width: 100%;
+        margin-top: 5%;
+    }
+    .logo{
+        width: 31pc;
+    }
+    .stats {
+        text-align: center;
+        width: 60%;
+        margin: 13px 1% 26px 19%;
+        font-size: .8125em; 
+    }
+    .stats h1 {
+        color: rgb(0,197,155);
+        margin-top: 5px;
+    }
+        .stats-box {
+            height: 190px;
+            background-color: white;
+            
+            width: 45%;
+            margin-right: 5%;
+        }
+        .box-1{
+            margin-top: -14px;
+            padding-top: 19px;
+        }
+        .box-2 {
+            margin-top: -29px;
+            padding-top: 19px;
+        }
+        .box-3{
+            margin-top: 4px;
+            padding-top: 31px; 
+        }
+        .box-4{
+            margin-top: -15px;
+             padding-top: 31px;
+        }
+        .stats-box-colomn-2 {
+            display: flex;
+            margin-top:5%;
+        }
+        .stats-box-colomn-1 {
+            display: flex;
+            
+        }
+      .box1 h1{
+        color: #00B9C1;
+        margin-left: 134px;
+        }
+        .box1 p{ 
+        font-weight: 300;
+        margin-left: 150px;
+        color: #ABABAB;
+    }
+      }
+      .box1 p {
+        color:rgb(196,196,196);
+        margin-left: 140px;
+      }
+    
+    .box-3 p {
+        margin-right: 17%;
+        margin-top: -5%;
+    }
+    .box-4 p {
+        margin-right: 17%;
+    }
+    .offices-description {
+        text-align: center;
+    }
+    .offices-description h1 {
+        color: rgb(0,197,155);
+        font-family: 'Charmonman', cursive;
+    }
+    .offices-description p {
+        text-align: center;
+        color: black;
+        opacity: .7;
+    }
+    .offices-colomn-1 {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .offices-colomn-2 {
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 3%;
+    }
+    .offices-colomn-1 h1 {
+        font-family: 'Charmonman', cursive;
+    }
+    .offices-box h2 {
+        font-family: 'Charmonman', cursive;
+    }
+    .offices-box h2{
+        color: #d3cfc9;
+    }
+   
+    .offices-box:hover{
+        --webkit-box-shadow: 0px 1px 42px 1px rgba(0,0,0,0.44);
+        -moz-box-shadow: 0px 1px 42px 1px rgba(0,0,0,0.44);
+        box-shadow: 0px 1px 42px 1px rgba(0,0,0,0.44);
+    }
+    .opening-information {
+        text-align: right;
+        margin-top: -17%;
+    }
+    .opening-information input {
+        background-color: rgb(61,131,223);
+        color:white;
+        height: 31px;
+        border-radius: 25px;
+    }
+    footer{
+        padding: 28px;
+        color: #6F6F6F;
+        border-top: 1px solid #eef2f2;
+        text-align: center;
+        margin-top: 87px;
+        border-top: 1px solid #eef2f2;
+        font-size:  13px;
+    }
+    
+  
